@@ -1,0 +1,9 @@
+{
+  "name": "mytune",
+  "version": "1.0.0",
+  "description": "My Tune web app",
+  "main": "index.html",
+  "repository": "https://github.com/ferjpi/mytune.git",
+  "author": "ferjpi <fernandojpt1203@gmail.com>",
+  "license": "MIT"
+}
