@@ -38,24 +38,6 @@ a {
   font-size: 2rem;
 }
 
-/* Buttons */
-.btn {
-  padding: 1rem;
-  color: #fff;
-  display: inline-block;
-}
-.btn-primary {
-  background: var(--primary-color);
-}
-.btn-primary:hover {
-  background: var(--primary-color-hover);
-}
-.btn-secondary {
-  background: var(--secondary-color);
-}
-.btn-secondary:hover {
-  background: var(--secondary-color-hover);
-}
 
 /* Showcase */
 #showcase {
@@ -95,7 +77,38 @@ a {
 .mt {
   margin-top: 1rem;
 }
-
+/* Buttons / Utility */
+.btn {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+}
+.btn-primary {
+  background: var(--primary-color);
+}
+.btn-primary:hover {
+  background: var(--primary-color-hover);
+}
+.btn-secondary {
+  background: var(--secondary-color);
+}
+.btn-secondary:hover {
+  background: var(--secondary-color-hover);
+}
+/* Text Colors / Utility */
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-light {
+  color: var(--light-color);
+}
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
 /* Navigation */
 nav {
   height: 40px;
