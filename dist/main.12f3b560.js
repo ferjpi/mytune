@@ -126,6 +126,21 @@ $(function () {
   });
   $('.open-menu').height($(window).height());
 });
+
+// Smooth Scrolling
+$('.cf a').on('click', function (event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+
+    var hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function () {
+      window.location.hash = hash;
+    });
+  }
+});
 },{}],"..\\..\\..\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
